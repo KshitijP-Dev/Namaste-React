@@ -1,0 +1,28 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Kshitij Patil",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KshitijP-Dev/Namaste-React.git"
+  },
+  "keywords": [
+    "Namaste-React",
+    "Kshitij",
+    "Patil",
+    "React",
+    "Igniting",
+    "our",
+    "App"
+  ],
+  "author": "Kshitij Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KshitijP-Dev/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/KshitijP-Dev/Namaste-React#readme"
+}
