@@ -1,14 +1,20 @@
-const heading = React.createElement("h1" ,{id : "parent"},[
-    React.createElement("h1" ,{id : "child1"},
-        [React.createElement("h1" ,{},"I am an H1 tag!"),
-         React.createElement("h2" ,{},"I am an H2 tag!"),
-        ]),
-        React.createElement("h1" ,{id : "child2"},[
-            React.createElement("h1" ,{},"I am an H1 tag!"),
-         React.createElement("h2" ,{},"I am an H2 tag!"),
-        ]),
-    ]);   
+import React from "react";
+import ReactDOM from "react-dom/client";
+  
+const heading = (
+  <div id="parent">
+    <div id="child1">
+      <h1>I am an H1 tag!</h1>
+      <h2>I am an H2 tag!</h2>
+    </div>
+
+    <div id="child2">
+      <h1>I am an H1 tag!</h1>
+      <h2>I am an H2 tag!</h2>
+    </div>
+  </div>
+);
 
     // console.log(parent);
-const roor = ReactDOM.createRoot(document.getElementById("root"));
-roor.render(heading);
+const Kp = ReactDOM.createRoot(document.getElementById("root"));
+Kp.render(heading);

@@ -2,7 +2,6 @@
   "name": "namaste_react",
   "version": "1.0.0",
   "description": "This is Namaste React by Kshitij Patil",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
@@ -24,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/KshitijP-Dev/Namaste-React/issues"
   },
-  "homepage": "https://github.com/KshitijP-Dev/Namaste-React#readme"
+  "homepage": "https://github.com/KshitijP-Dev/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "browserslist" : [
+    "last 2 versions"
+  ]
 }
